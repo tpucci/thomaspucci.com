@@ -10,7 +10,10 @@ For networking and self-marketing purposes of course.
 
 ## How do I get started?
 
+Install ASDF-vm.
+
 ```sh
+asdf install
 git clone git@github.com:tpucci/mkdocs-material-insiders.git mkdocs-material
 pip install -e mkdocs-material
 ```
