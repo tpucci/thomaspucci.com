@@ -15,5 +15,6 @@ jobs:
       - run: pip install git+https://${GH_TOKEN}@github.com/tpucci/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
 env:
-  # We use a Personnal access token because GH_TOKEN is only scoped to this repo.
-  GH_TOKEN: ${{ secrets.GH_PAT }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+permissions:
+  repository-projects: write
