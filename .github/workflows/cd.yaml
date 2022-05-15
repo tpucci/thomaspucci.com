@@ -9,13 +9,10 @@ jobs:
     if: github.event.repository.fork == false
     steps:
       - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-python@v3
         with:
           python-version: 3.x
-      - run: pip install git+https://${GH_PAT}@github.com/tpucci/mkdocs-material-insiders.git
+      - run: pip install git+https://${GH_TOKEN}@github.com/tpucci/mkdocs-material-insiders.git
       - run: mkdocs gh-deploy --force
 env:
-  # We use a Personnal access token because GH_TOKEN is only scoped to this repo.
-  GH_PAT: ${{ secrets.GH_PAT }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
