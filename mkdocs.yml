@@ -1,3 +1,46 @@
-site_name: Thomas Pucci's Blog
+site_name: Thomas Pucci
 theme:
   name: material
+  icon:
+    logo: material/library 
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+      primary: blue
+      accent: green
+    - scheme: slate 
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue
+      accent: light green
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - header.autohide
+plugins:
+  - search
+  - social
+copyright: Copyright &copy; 2019 - 2022 Thomas Pucci
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Thomas_Pucci
+      name: Thomas on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/thomaspucci
+      name: Thomas on Linked In
+    - icon: fontawesome/brands/github
+      link: https://github.com/tpucci
+      name: Thomas on Github
+      
