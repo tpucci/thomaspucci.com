@@ -1,6 +1,7 @@
 site_name: Thomas Pucci
 theme:
   name: material
+  custom_dir: overrides
   icon:
     logo: material/library 
   palette:
@@ -31,7 +32,7 @@ theme:
 plugins:
   - search
   - social
-copyright: Copyright &copy; 2019 - 2022 Thomas Pucci
+copyright: Copyright &copy; 2019 - present Thomas Pucci
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -43,4 +44,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/tpucci
       name: Thomas on Github
-      
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

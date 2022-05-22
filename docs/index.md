@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+---
+template: home.html
+title: Blog
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Blog
 
-## Commands
+## [Contact Me]
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+__This blog is a work in progress. For now, only the Contact page is ready. Ahah, yeah... Great work... I know.__
 
-## Project layout
+---
+:octicons-calendar-24: May 22, 2022 ·
+:octicons-clock-24: 0 min read
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+After 5 years at [BAM], I've decided to join new adventures ! If I am committed enough, this blog should regularly display articles about Lean Engineering Management or Software Craftsmanships practices.
+
+  [:octicons-arrow-right-24: See the fabulous contact page][Contact Me]
+
+  [BAM]: https://www.bam.tech
+  [Contact Me]: contact
+
