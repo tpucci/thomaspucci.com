@@ -1,0 +1,8 @@
+.mdx-video {
+  width: auto !important;
+}
+
+.mdx-video iframe {
+  border: none;
+  max-width: 100%;
+}
