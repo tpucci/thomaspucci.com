@@ -4,9 +4,9 @@
 
 !!! note "Animations on Android"
 
-    Animations are a great technique to significally improve your UX.
-	Discover how to get started with Animation on Android with
-	Jetpack Compose !
+    Animations are a great technique to significantly improve your UX.
+    Discover how to get started with Animation on Android with
+    Jetpack Compose !
 
 <figure class="mdx-video" markdown>
   <div class="mdx-video__inner">
@@ -22,14 +22,28 @@ Conference @ [Paris Kotlin Koders](https://kotlin-koders.eu/#/speaker/ThomasPucc
 
 ## 2020 - Clean Archi with NestJS
 
-- Online Meetup @ NestJS Paris
+!!! note "3 Layers Architecture : Domain, Business, Infra"
 
-https://www.youtube.com/embed/AT06fYUvQ_0
+    Every 4 years or so, in my personal experience, we partially or completely rewrite
+    a badly architectured app. In order to avoid this, the "Clean Architecture" philosophy
+    described by Uncle Bob comes to rescue us.
+
+<figure class="mdx-video" markdown>
+  <div class="mdx-video__inner">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AT06fYUvQ_0" allowfullscreen></iframe>
+  </div>
+  <figcaption markdown>
+
+Online Meetup @ [NestJS Paris](https://twitter.com/nestjs_paris)
+
+  </figcaption>
+</figure>
+
 
 ## 2019 - NoNav for better mobile app navigation
 
 - Conference @ Paris OpenSource Summit
-- Online Meetup @ ??
+- Online Meetup @ LPCx
 
 https://www.youtube.com/embed/SQn_7BOXkXs
 
