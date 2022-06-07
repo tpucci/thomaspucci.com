@@ -42,14 +42,41 @@ Online Meetup @ [NestJS Paris](https://twitter.com/nestjs_paris)
 
 ## 2019 - NoNav for better mobile app navigation
 
-- Conference @ Paris OpenSource Summit
-- Online Meetup @ LPCx
+!!! note "NoNav, our paradigm to make UX dynamic apps"
 
-https://www.youtube.com/embed/SQn_7BOXkXs
+    In apps containing a lot of funnels and guided paths, it is not very usefull to let the user
+    look for its content. Instead, we can use the data and sensors state and the date time to
+    automatically navigate inside the app.
+
+<figure class="mdx-video" markdown>
+  <div class="mdx-video__inner">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SQn_7BOXkXs" allowfullscreen></iframe>
+  </div>
+  <figcaption markdown>
+
+Online Meetup @ [LPCx](https://www.meetup.com/FrenchProduit-Paris/)
+Conference @ [Paris OpenSource Summit](https://2019.opensourcesummit.paris)
+
+  </figcaption>
+</figure>
+
 
 ## 2017 - Kick start a JS GraphQL 3 layers API with Apollo-server, Dataloader and Knex
 
-- Meetup @ ParisJS
-- TechLunch @ Algolia
+!!! note "Dataloader is the key for the N+1 problem"
 
-https://www.youtube.com/embed/uLsBwu9-VrA
+    GraphQL is the new way to request data from frontend client. It uses a single endpoint and let us
+    save requests and data. However, we move the N+1 query problem from frontend to the database layer.
+    Dataloader comes to the rescue !
+
+<figure class="mdx-video" markdown>
+  <div class="mdx-video__inner">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uLsBwu9-VrA" allowfullscreen></iframe>
+  </div>
+  <figcaption markdown>
+
+Meetup @ [ParisJS](https://www.meetup.com/Paris-js/)
+TechLunch @ [Algolia](https://www.meetup.com/TechLunch/)
+
+  </figcaption>
+</figure>
